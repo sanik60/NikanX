@@ -5,97 +5,306 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="NikanX builds customized AI agents, smart automation, and intelligent robotic solutions."
+      content="NikanX designs bespoke AI agents and automation for law firms, medical practices and private clients. Built around your work, running inside your own systems. Munich."
     />
-    <title>NikanX | Tailored AI Agents &amp; Robotic Innovations</title>
-    <style>
-      :root {
-        --bg: #f7f8fa;
-        --text: #14171f;
-        --muted: #5b6272;
-        --accent: #2457f5;
-        --line: #e2e5eb;
-      }
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #0e1117;
-          --text: #eef0f4;
-          --muted: #9aa3b5;
-          --accent: #7b9bff;
-          --line: #232836;
-        }
-      }
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        background: var(--bg);
-        color: var(--text);
-        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-        line-height: 1.6;
-      }
-      main {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 720px;
-        margin: 0 auto;
-        padding: 48px 24px;
-      }
-      .brand {
-        font-size: 1rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--accent);
-        margin: 0 0 24px;
-      }
-      h1 {
-        font-size: clamp(2rem, 6vw, 3.25rem);
-        line-height: 1.15;
-        margin: 0 0 20px;
-      }
-      p.lead {
-        font-size: 1.15rem;
-        color: var(--muted);
-        margin: 0 0 32px;
-        max-width: 56ch;
-      }
-      a.button {
-        align-self: flex-start;
-        padding: 12px 24px;
-        border-radius: 8px;
-        background: var(--accent);
-        color: var(--bg);
-        font-weight: 600;
-        text-decoration: none;
-      }
-      a.button:hover {
-        opacity: 0.9;
-      }
-      footer {
-        border-top: 1px solid var(--line);
-        padding: 20px 24px;
-        text-align: center;
-        font-size: 0.9rem;
-        color: var(--muted);
-      }
-    </style>
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>NikanX | Bespoke AI for Private Practice and Private Clients</title>
+    <link rel="alternate" hreflang="en" href="https://nikanx.com/" />
+    <link rel="alternate" hreflang="de" href="https://nikanx.com/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://nikanx.com/" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <main>
-      <p class="brand">NikanX</p>
-      <h1>Tailored AI Agents and Robotic Innovations</h1>
-      <p class="lead">
-        We build customized AI agents, smart automation systems, and
-        intelligent solutions, crafted for your real-world needs.
-      </p>
+    <header>
+      <div class="wrap bar">
+        <a class="brand" href="#top" aria-label="NikanX home">
+          <svg viewBox="195 275 650 440" aria-hidden="true">
+            <polygon points="205,285 298,285 298,705 205,705" />
+            <polygon points="205,285 328,285 533,560 545,705 520,705 215,285" />
+            <polygon points="715,285 820,285 545,705 525,705 533,560" />
+            <polygon points="475,285 567,285 832,705 740,705" />
+          </svg>
+          NikanX
+        </a>
+        <nav>
+          <a href="#clientele">Clientele</a>
+          <a href="#services">Services</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#approach">Approach</a>
+          <div class="lang" aria-label="Language">
+            <span aria-current="true">EN</span><i></i><a href="de/" lang="de" hreflang="de">DE</a>
+          </div>
+          <a class="btn" href="mailto:info@nikanx.com">Enquire</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <div class="wrap hero">
+        <p class="eyebrow reveal">Bespoke AI &middot; Munich</p>
+        <h1 class="reveal">Intelligence, <em>tailored</em> to the way you work.</h1>
+        <p class="lead reveal">
+          NikanX designs AI agents and automation for law firms, medical
+          practices and private clients. Each one is built around your work,
+          runs inside your own systems, and answers only to you.
+        </p>
+        <div class="actions reveal">
+          <a class="btn" href="mailto:info@nikanx.com?subject=Private%20consultation"
+            >Request a private consultation</a
+          >
+          <a class="btn ghost" href="#approach">How we work</a>
+        </div>
+      </div>
+
+      <!-- PRINCIPLES -->
+      <div class="principles">
+        <div class="wrap">
+          <div class="principle reveal">
+            <h3>Made to measure</h3>
+            <p>
+              No templates and no generic chatbot. Every system is designed for
+              one client and the way that client already works.
+            </p>
+          </div>
+          <div class="principle reveal">
+            <h3>Private by design</h3>
+            <p>
+              Your AI runs within your trusted environment. Your information
+              stays under your exclusive control.
+            </p>
+          </div>
+          <div class="principle reveal">
+            <h3>Measured in hours returned</h3>
+            <p>
+              Smarter workflows, lower costs and greater precision, so your
+              time goes to the work only you can do.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CLIENTELE -->
+      <section id="clientele">
+        <div class="wrap">
+          <div class="head reveal">
+            <p class="eyebrow">Clientele</p>
+            <h2>For those whose work depends on <em>discretion</em>.</h2>
+            <p class="lead">
+              We work with people for whom confidentiality is part of the
+              profession, and whose time is their scarcest resource. These are
+              examples of what a commission can look like.
+            </p>
+          </div>
+          <div class="cards">
+            <article class="card reveal">
+              <div class="no">i.</div>
+              <h3>Law firms &amp; notaries</h3>
+              <p>
+                An assistant that knows your files, your precedents and your
+                house style, and never shares them with anyone else.
+              </p>
+              <ul>
+                <li>Research across your own documents</li>
+                <li>First drafts in your firm's voice</li>
+                <li>Deadline and matter tracking</li>
+              </ul>
+            </article>
+            <article class="card reveal">
+              <div class="no">ii.</div>
+              <h3>Medical practices &amp; clinics</h3>
+              <p>
+                Less time at the keyboard and more with patients, with
+                sensitive data kept inside the practice.
+              </p>
+              <ul>
+                <li>Documentation and letters prepared for review</li>
+                <li>Scheduling and patient correspondence</li>
+                <li>Routine administration handled quietly</li>
+              </ul>
+            </article>
+            <article class="card reveal">
+              <div class="no">iii.</div>
+              <h3>Private clients &amp; family offices</h3>
+              <p>
+                A personal layer of intelligence for your household, your
+                property and your affairs.
+              </p>
+              <ul>
+                <li>Intelligent home and estate automation</li>
+                <li>Monitoring and control, wherever you are</li>
+                <li>A private agent for documents and correspondence</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="services">
+        <div class="wrap">
+          <div class="head reveal">
+            <p class="eyebrow">Services</p>
+            <h2>Intelligence becomes your <em>competitive edge</em>.</h2>
+          </div>
+          <div class="rows">
+            <div class="row reveal">
+              <div class="no">01</div>
+              <h3>Bespoke AI agents</h3>
+              <p>
+                Agents that read, draft, research and act on your behalf,
+                trained on your own knowledge and working within your rules.
+              </p>
+            </div>
+            <div class="row reveal">
+              <div class="no">02</div>
+              <h3>Workflow automation</h3>
+              <p>
+                The repetitive work of a practice or a business, handled
+                reliably in the background and connected to the tools you
+                already use.
+              </p>
+            </div>
+            <div class="row reveal">
+              <div class="no">03</div>
+              <h3>Intelligent homes &amp; estates</h3>
+              <p>
+                Smart sensor and automation networks for residences and
+                properties, designed as one coherent system.
+              </p>
+            </div>
+            <div class="row reveal">
+              <div class="no">04</div>
+              <h3>Monitoring &amp; control</h3>
+              <p>
+                Systems that watch what matters, alert you when it counts and
+                let you act from wherever you are.
+              </p>
+            </div>
+            <div class="row reveal">
+              <div class="no">05</div>
+              <h3>AI innovation &amp; development</h3>
+              <p>
+                From first idea to working system, for needs that no
+                off-the-shelf product answers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRIVACY -->
+      <section id="privacy" class="privacy">
+        <div class="wrap grid">
+          <div class="reveal">
+            <p class="eyebrow">Privacy</p>
+            <h2>Your data stays where your <em>trust</em> is.</h2>
+            <p>
+              NikanX AI runs directly within your systems. Your information
+              stays private, secure and under your exclusive control. That is
+              the starting point of every design, not an option added later.
+            </p>
+          </div>
+          <ul class="pledges reveal">
+            <li>
+              <strong>Inside your environment</strong>
+              <span>Installed in the systems you already trust.</span>
+            </li>
+            <li>
+              <strong>Under your control</strong>
+              <span>You decide what the system may see, and what it may do.</span>
+            </li>
+            <li>
+              <strong>Yours alone</strong>
+              <span>Built for one client. Your knowledge is never pooled with anyone else's.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- APPROACH -->
+      <section id="approach">
+        <div class="wrap">
+          <div class="head reveal">
+            <p class="eyebrow">Approach</p>
+            <h2>A commission, not a <em>subscription</em>.</h2>
+            <p class="lead">
+              We take on a small number of clients and work with each one
+              personally, from the first conversation to the finished system.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="step reveal">
+              <h3>Conversation</h3>
+              <p>A private consultation about your work and where your time goes.</p>
+            </div>
+            <div class="step reveal">
+              <h3>Design</h3>
+              <p>A clear proposal: what we will build, what it will do, and what it will not.</p>
+            </div>
+            <div class="step reveal">
+              <h3>Build</h3>
+              <p>We develop and install the system inside your own environment.</p>
+            </div>
+            <div class="step reveal">
+              <h3>Care</h3>
+              <p>We refine it as your needs change, and remain your direct contact.</p>
+            </div>
+          </div>
+          <p class="aside reveal">
+            We use AI agents ourselves to build and deliver our own technology.
+            What we recommend to you is what we rely on every day.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="wrap">
+          <p class="eyebrow reveal">Enquiries</p>
+          <h2 class="reveal">Begin with a conversation.</h2>
+          <p class="lead reveal">
+            Tell us a little about your practice or your household. We reply
+            personally and treat every enquiry in confidence.
+          </p>
+          <a class="mail reveal" href="mailto:info@nikanx.com">info@nikanx.com</a>
+          <p class="place reveal">Munich &middot; Germany</p>
+        </div>
+      </section>
     </main>
-    <footer>&copy; 2026 NikanX &middot; Munich</footer>
+
+    <footer>
+      <div class="wrap">
+        <span>&copy; 2026 NikanX. Tailored AI agents and robotic innovations.</span>
+        <a href="mailto:info@nikanx.com">info@nikanx.com</a>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var items = document.querySelectorAll(".reveal");
+        if (!("IntersectionObserver" in window)) {
+          items.forEach(function (el) {
+            el.classList.add("in");
+          });
+          return;
+        }
+        var io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (e) {
+              if (e.isIntersecting) {
+                e.target.classList.add("in");
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.12 }
+        );
+        items.forEach(function (el) {
+          io.observe(el);
+        });
+      })();
+    </script>
   </body>
 </html>
